@@ -1,0 +1,130 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+@font-face{
+  font-family: 'JetBrains Mono';
+  src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+       url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff') format('woff'),
+       url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$main-color: #72aadf;
+
+.back-to-top {
+  background-color: $main-color;
+  color: #FFFFFF;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+a.back-to-top {
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6;
+  padding-left: 2px;
+  padding-top: 14px;
+}
+
+// .back-to-top:hover, .back-to-top:focus, .back-to-top:visited {
+//   color: #FFFFFF;
+// }
+
+.back-to-top.show {
+  opacity: 1;
+}
+
+a {
+  color: $main-color;
+}
+
+.markdown-body {
+  max-width: 800px;
+  font-size: 16px;
+}
+
+.markdown-body p {
+  font-size: 16px;
+  line-height: 1.9em;
+  margin-bottom: 1.2em;
+}
+
+.markdown-body li {
+  line-height: 1.9em;
+}
+
+input.task-list-item-checkbox {
+  margin-right: 4px;
+}
+
+img[src*="demo"] {
+  border: 1px #eee solid;
+  -webkit-box-shadow: 4px 4px 16px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 4px 4px 16px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 4px 4px 16px 0px rgba(50, 50, 50, 0.1);
+}
+
+@media only screen and (min-width: 1170px) {
+  img[src*="demo"] {
+    max-width: 130%;
+    margin-left: -15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+h1, h2, h3, h4, h5, blockquote {
+  font-family: Inter, sans-serif;
+}
+
+code {
+  font-family: 'JetBrains Mono';
+}
+
+* {
+  font-feature-settings: "liga" on, "calt" on;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.wikilink:before {
+  content: "[[";
+  opacity: 0.5;
+}
+
+.wikilink:after {
+  content: "]]";
+  opacity: 0.5;
+}
+
+.github-only {
+  display: none;
+}
+
+.announcement {
+  background: #ede7ff;
+  padding: 4px 16px;
+  color: black;
+  border-radius: 4px;
+}
