@@ -3,7 +3,7 @@
 The other day I saw an interesting idea, really simple but hard to implement:
 
 > **The right answer to a security question is easy to extract from a person,**
-> **however, no one told you, you had to give the right answer.**
+> **however, no one told you that you had to give the right answer.**
 
 Let me make clear: This post is *not* about how to implement security questions,
 or whether they are secure.
