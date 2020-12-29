@@ -1,4 +1,7 @@
-# Better Typesetting Or Why LaTeX Sucks
+---
+tags: latex
+---
+# Why LaTeX Sucks
 
 > Note: This is more of a rant than a coherent stream of thought,
 > however, I do believe in the problems I pose.
