@@ -3,7 +3,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 20,
-  "workbench.colorTheme": "Gray Matter Light",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "[markdown]": {
     "editor.quickSuggestions": true
   },
