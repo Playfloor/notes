@@ -16,7 +16,13 @@ It all started while writing a presentation for a talk
 The template I used required LuaTeX (or LuaLaTeX, the several names the community gives to things is ridiculous),
 I simply switched over but then the presentation wouldn't compile due to fonts,
 I figured some were missing, so I installed them, and then, it was fonts again...
-I honestly don't remember how I fixed it that time but it wasn't the last time I'd have a problem with LuaLaTeX.
+I was unable to fix the problem, LuaTeX doesn't seem to know where the fonts are,
+this disables me from using *modern* fonts.
+
+> *[30/12/2020]* - I found the problem to be an *actually* missing package from TeXLive - `kpfonts-otf`.
+> The package should come pre-installed (and at least for next Ubuntu versions it does).
+> The CTAN page reads: *This package is meant to be installed automatically by TeXLive, MikTeX, etc.*
+> No comments.
 
 *Enter my thesis template.*
 I figured I could simply switch compilers and no harm would come from it, *I was wrong*.
@@ -58,8 +64,7 @@ especially if the term is not directly translatable.
 
 While I can't contest that LaTeX is amazing, I can't also stay silent and pretend it doesn't suck.
 There is just nothing better and academics dislike change,
-maybe if designers were forced to use it we would have something better
-(or not, the CSS frameworks also don't seem to be very practical).
+maybe if designers were forced to use it we would have something better.
 
 I think we ought to learn our lessons and move on,
 instead of building a new LaTeX version and perpetuate the suffering of millions of users,
