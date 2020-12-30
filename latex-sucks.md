@@ -60,6 +60,12 @@ while in this case searching "diagonal table cell" is not hard to come up,
 for a more specific term it is orders of magnitude harder,
 especially if the term is not directly translatable.
 
+## Problem 4 - The Error Messages Are Unhelpful
+
+I've never seen a compiler tell me *When in doubt, ask someone for help!* but once more,
+this is unacceptable. I need to work **NOW** not when someone answers me on StackOverflow after marking my first 30 attempts as duplicates.
+I *can't* ask someone and hope they answer, you're the compiler, you tell me what the fuck is wrong.
+
 ## Conclusion (for now)
 
 While I can't contest that LaTeX is amazing, I can't also stay silent and pretend it doesn't suck.
