@@ -66,6 +66,20 @@ I've never seen a compiler tell me *When in doubt, ask someone for help!* but on
 this is unacceptable. I need to work **NOW** not when someone answers me on StackOverflow after marking my first 30 attempts as duplicates.
 I *can't* ask someone and hope they answer, you're the compiler, you tell me what the fuck is wrong.
 
+## Problem 5 - LaTeX Spaghetti
+
+Did you ever work on a section of your document, making sure every detail is right,
+just to be destroyed by a pesky `\usepackage`?
+It sure happened to me, after spending more time than I'd like to admit on getting a title the way *I* wanted,
+I imported `parskip` to deal with the fat useless whitespace between paragraphs,
+that import messed with the title.
+
+Why did it mess with the title? I don't know, but you can be sure I didn't use `parskip`.
+In computer science this is called spaghetti code, because if you graph the dependencies,
+it ends up looking like a spaghetti plate.
+I don't want a single import having side effects on my document unless
+I specified something like `\EnableFuckingSideEffects`.
+
 ## Conclusion (for now)
 
 While I can't contest that LaTeX is amazing, I can't also stay silent and pretend it doesn't suck.
